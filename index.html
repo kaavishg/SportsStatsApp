@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Stats Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sports Stats Tracker</h1>
+    <p>Track live stats for football and cricket players</p>
+  </header>
+
+  <main>
+    <section id="sport-selector">
+      <h2>Select a Sport</h2>
+      <button onclick="selectSport('football')">Football</button>
+      <button onclick="selectSport('cricket')">Cricket</button>
+    </section>
+
+    <section id="stats-display">
+      <h2>Player Stats</h2>
+      <p>Select a sport to view live statistics.</p>
+      <div id="data-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by Sports APIs & Built with Python</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

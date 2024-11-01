@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    width: 100%;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  main {
+    width: 90%;
+    max-width: 800px;
+    padding: 1.5rem;
+  }
+  
+  #sport-selector {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+  }
+  
+  #sport-selector button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #sport-selector button:hover {
+    background-color: #555;
+  }
+  
+  #stats-display {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: #777;
+  }
+  
